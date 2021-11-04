@@ -21,6 +21,10 @@ nav a {
 }
 
 
+.icon {
+    width: 100px;
+}
+
 .part1 { 
     float: left;
     background-color: #cce5ff; border-radius: 1em;
@@ -34,14 +38,10 @@ nav a {
     display: flex;
     background-color: #cce5ff; border-radius: 1em;
     margin: 20px;
+    flex-wrap: wrap;
 }
 .part2 article {padding: 20px;}
 .article2, .article3 {margin: 20px; padding: 10px;}
-
-img {
-    width: 100px;
-
-}
 
 .flexbox {
     display: flex;
@@ -69,3 +69,20 @@ aside {
     margin: 60px;
 }
 
+.banner {
+    max-width: 100%;
+}
+
+span {
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    nav a{display: block;}
+    .part1,.part2{max-width: 100%;}
+
+}
+
+@media only screen and (min-width: 600px) {
+    nav a{max-width: 100%;}
+    .part1,.part2{max-width: 100%;}
+}
