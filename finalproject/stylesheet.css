@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(205, 222, 248);
+}
+
 nav {
     background-color: white;
     text: rgb(111, 204, 235);
@@ -7,6 +11,8 @@ nav {
     padding: 10px;
     overflow: auto;
     text-decoration: none;
+    float:left;
+    margin:10px;
 }
 
 nav a {
@@ -28,6 +34,8 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 10px;
+    border-radius: 2em;
+    clear:left;
 }
 
 h2 {
@@ -43,6 +51,21 @@ h2,.p1,.p2 {
 }
 .p2{
     margin: 100px;
+}
+
+button {
+    color: rgb(82, 134, 245);
+    border: solid rgba(90, 99, 226, 0.616);
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.button1, .button2{
+    display:flex;
+    justify-content: center;
+    margin: 10px;
 }
 
 @media screen and (max-width: 500px) {

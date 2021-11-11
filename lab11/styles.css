@@ -1,0 +1,99 @@
+body {
+    background-color: #e9c5ec;
+    font-size: 16em;
+}
+p{
+    color: #9d47a5;
+    text-align: center;
+}
+a:link {color:#4a0f4d;}
+h1{
+    color: #6d2e68;
+    text-align: center;
+}
+nav {
+    background-color: #efd7f0;
+    padding: 10px;
+    text-align:left;
+}
+
+nav a {
+    color:slateblue;
+}
+
+#skip {
+    position:absolute; /* relative to parent container*/
+    left: -999px; /*move it off the page*/
+    background-color:orange; 
+}
+
+#skip:focus {
+    left: 10px;
+}
+
+
+.icon {
+    width: 100px;
+}
+
+.part1 { 
+    float: left;
+    background-color: #cce5ff; border-radius: 1em;
+    padding: 10px;
+    margin: 20px;
+    margin-right: 10px;
+}
+
+.part2 {
+    clear: left;
+    display: flex;
+    background-color: #cce5ff; border-radius: 1em;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.part2 article {padding: 20px;}
+.article2, .article3 {margin: 20px; padding: 10px;}
+
+.flexbox {
+    display: flex;
+}
+aside {
+    background-color: rgb(203, 145, 226);
+    border-radius: 2em;
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    margin: 50px;
+    color:rgb(255, 255, 255)
+}
+.skills {
+    display:flex;
+    flex: 3;
+    justify-content: space-between;
+    margin: 50px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+.extracredit{
+    display: flex;
+    margin: 60px;
+}
+
+.banner {
+    max-width: 100%;
+}
+
+span {
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    nav a{display: block;}
+    .part1,.part2{max-width: 100%;}
+
+}
+
+@media only screen and (min-width: 600px) {
+    nav a{max-width: 100%;}
+    .part1,.part2{max-width: 100%;}
+}
