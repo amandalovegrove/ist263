@@ -53,6 +53,51 @@ h2,.p1,.p2 {
     margin: 100px;
 }
 
+.photo1, .photo2 {
+    width: 50em;
+}
+
+.paragraph1, .paragraph2, .paragraph5 {
+    text-align: center;
+}
+.paragraph3,.paragraph4 {
+    margin:30px;
+}
+
+.paragraph6 {
+    display:flex;
+    float:right;
+}
+
+.photo1 {
+    width: 25em;
+    display: flex;
+    float:left;
+    padding:10px;
+}
+
+.photo2 {
+    width: 25em;
+    display:flex;
+    float:right;
+    padding:10px;
+}
+.photo3 {
+    width: 10em;
+    display:flex; 
+    float:left;
+    padding:10px;
+    margin: 20px
+}
+
+.photo4 {
+    width:25em;
+    display:flex;
+    float:right;
+    padding:10px;
+    margin:20px;
+}
+
 button {
     color: rgb(82, 134, 245);
     border: solid rgba(90, 99, 226, 0.616);
@@ -65,7 +110,27 @@ button {
 .button1, .button2{
     display:flex;
     justify-content: center;
-    margin: 10px;
+    align-items: center;
+    margin:20px;
+}
+
+.button3, .button4 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button5, .button6 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
+.button5 {
+    margin-top: 100px;
+}
+ .button3, .button1{
+    margin-top: 200px;
 }
 
 @media screen and (max-width: 500px) {
