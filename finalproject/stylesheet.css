@@ -74,6 +74,7 @@ h2,.p1,.p2 {
     display: flex;
     float:left;
     padding:10px;
+    max-width: 100%;
 }
 
 .photo2 {
@@ -81,13 +82,15 @@ h2,.p1,.p2 {
     display:flex;
     float:right;
     padding:10px;
+    max-width: 100%;
 }
 .photo3 {
     width: 10em;
     display:flex; 
     float:left;
     padding:10px;
-    margin: 20px
+    margin: 20px;
+    max-width: 100%;
 }
 
 .photo4 {
@@ -96,6 +99,7 @@ h2,.p1,.p2 {
     float:right;
     padding:10px;
     margin:20px;
+    max-width: 100%;
 }
 
 button {
@@ -133,9 +137,20 @@ button {
     margin-top: 200px;
 }
 
-@media screen and (max-width: 500px) {
-    .navbar a {
+@media screen and (max-width: 600px) {
+    .nav {
       float: none;
       display: block;
+      margin: 1px;
+      padding: 1px;
+      font-size: 5px;
+    }
+    .paragraph1 .paragraph2 .paragraph3 .paragraph4 .paragraph5 .paragraph6 {
+        margin: 1px;
+        padding: 1px;
+    }
+    .p1 .p2 {
+        margin: 1px;
+        padding: 1px;
     }
   }
