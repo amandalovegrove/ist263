@@ -138,20 +138,60 @@ button {
     margin-top: 200px;
 }
 
-@media screen and (max-width: 600px) {
-    .nav {
-      float: none;
-      display: block;
-      margin: 1px;
-      padding: 1px;
-      font-size: 5px;
+@media screen and (max-width: 700px) {
+.menu {
+    flex-wrap: wrap;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    font-size: 12px;
+    justify-content: space-between;
     }
-    .paragraph1 .paragraph2 .paragraph3 .paragraph4 .paragraph5 .paragraph6 {
+
+    h1 {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .paragraph1, .paragraph2, .paragraph3, .paragraph4, .paragraph5, .paragraph6, .paragraph7 {
+        margin: 1px;
+        padding: 1px;
+        text-align: center;
+    }
+
+    .photo3 {
+        width: 10em;
+        padding:10px;
+        margin-left: 80px;
+        margin-right: 80px;
+        max-width: 100%;
+    }
+    .photo4 {
+        width:20em;
+        padding:10px;
+        max-width: 100%;
+    }
+
+    .photo2 {
+        width: 20em;
+        float: none;
+        padding:10px;
+        max-width: 100%;
+
+    }
+    .p1, .p2 {
+        display:inline-flex;
         margin: 1px;
         padding: 1px;
     }
-    .p1 .p2 {
-        margin: 1px;
-        padding: 1px;
+    .tinman .book {
+        width: 5px;
+    }
+    .arrow, .home, .question {
+        display: none;
+    }
+
+    .button3, .button1{
+        margin-top: 100px;
     }
   }
