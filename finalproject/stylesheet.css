@@ -5,7 +5,7 @@ body {
 
 nav {
     background-color: white;
-    text: rgb(111, 204, 235);
+    text: rgb(55, 41, 245);
     border-style: solid;
     border-color: royalblue;
     display: flex;
@@ -30,7 +30,7 @@ img {
 
 h1 {
     background-color: white;
-    color:rgb(111, 204, 235);
+    color:rgb(55, 41, 245);
     border-style: solid;
     display: flex;
     justify-content: center;
@@ -40,7 +40,7 @@ h1 {
 }
 
 h2 {
-    color:rgb(111, 204, 235);
+    color:rgb(55, 41, 245);
 }
 
 h2,.p1,.p2 {
@@ -104,7 +104,7 @@ h2,.p1,.p2 {
 }
 
 button {
-    color: rgb(82, 134, 245);
+    color: rgb(55, 41, 245);
     border: solid rgba(90, 99, 226, 0.616);
     text-align: center;
     display: flex;
